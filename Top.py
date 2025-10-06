@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-  margin:50px;
+  align-text:center;
   color: #00e0ff;
   font-size: 2.0rem;
   animation: glow 2s infinite alternate;
@@ -60,7 +60,6 @@ button:hover {
   70% { transform: scale(1); box-shadow: 0 0 0 20px rgba(0,224,255, 0); }
   100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(0,224,255, 0); }
 }
-<h1 class="HITU">HITU</h1>
 </style>
 """, unsafe_allow_html=True)
 
@@ -132,6 +131,7 @@ if btn:
     except Exception as e:
 
         st.error(f"حدث خطأ أثناء الحذف: {e}")
+
 
 
 
