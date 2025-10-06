@@ -60,7 +60,6 @@ button:hover {
   100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(0,224,255, 0); }
 }
 </style>
-<h1 class="HITU"> HITU <br> Data Science</h1>
 """, unsafe_allow_html=True)
 
 # ===================== ⚙️ الإعداد =====================
@@ -77,7 +76,8 @@ if not os.path.exists("students"):
 
 # ===================== 🧠 واجهة المستخدم =====================
 st.markdown("<div class='pulse-animation'></div>", unsafe_allow_html=True)
-st.title("🎓 نظام تسجيل الحضور الذكي")
+st.title("HITU DATA SCIENCE")
+st.subtitle("🎓 نظام تسجيل الحضور الذكي")
 st.markdown("---")
 
 name = st.text_input("👤 أدخل اسم الطالب:")
@@ -130,3 +130,4 @@ if btn:
     except Exception as e:
 
         st.error(f"حدث خطأ أثناء الحذف: {e}")
+
