@@ -77,7 +77,7 @@ if not os.path.exists("students"):
 # ===================== 🧠 واجهة المستخدم =====================
 st.markdown("<div class='pulse-animation'></div>", unsafe_allow_html=True)
 st.title("HITU DATA SCIENCE")
-st.subtitle("🎓 نظام تسجيل الحضور الذكي")
+st.subheader("🎓 نظام تسجيل الحضور الذكي")
 st.markdown("---")
 
 name = st.text_input("👤 أدخل اسم الطالب:")
@@ -130,4 +130,5 @@ if btn:
     except Exception as e:
 
         st.error(f"حدث خطأ أثناء الحذف: {e}")
+
 
