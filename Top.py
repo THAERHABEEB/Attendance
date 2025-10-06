@@ -23,12 +23,7 @@ h1 {
   font-size: 2.5rem;
   animation: glow 2s infinite alternate;
 }
-h2 {
-  text-align: center;
-  color: #00e0ff;
-  font-size: 2.0rem;
-  animation: glow 2s infinite alternate;
-}
+
 
 @keyframes glow {
   from { text-shadow: 0 0 10px #00e0ff, 0 0 20px #00e0ff; }
@@ -65,6 +60,7 @@ button:hover {
   70% { transform: scale(1); box-shadow: 0 0 0 20px rgba(0,224,255, 0); }
   100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(0,224,255, 0); }
 }
+<div class="HITU">HITU</div>
 </style>
 """, unsafe_allow_html=True)
 
@@ -136,6 +132,7 @@ if btn:
     except Exception as e:
 
         st.error(f"حدث خطأ أثناء الحذف: {e}")
+
 
 
 
