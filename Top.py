@@ -60,7 +60,7 @@ button:hover {
   100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(0,224,255, 0); }
 }
 </style>
-<h1 class="HITU">Helwan International Technology University - HITU</h1>
+<h1 class="HITU"> HITU <br> Data Science</h1>
 """, unsafe_allow_html=True)
 
 # ===================== ⚙️ الإعداد =====================
@@ -128,4 +128,5 @@ if btn:
         # إنشاء ملف جديد فاضي بعد الحذف
         
     except Exception as e:
+
         st.error(f"حدث خطأ أثناء الحذف: {e}")
