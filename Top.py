@@ -23,6 +23,12 @@ h1 {
   font-size: 2.5rem;
   animation: glow 2s infinite alternate;
 }
+h2 {
+  text-align: center;
+  color: #00e0ff;
+  font-size: 2.0rem;
+  animation: glow 2s infinite alternate;
+}
 
 @keyframes glow {
   from { text-shadow: 0 0 10px #00e0ff, 0 0 20px #00e0ff; }
@@ -76,7 +82,7 @@ if not os.path.exists("students"):
 
 # ===================== 🧠 واجهة المستخدم =====================
 st.markdown("<div class='pulse-animation'></div>", unsafe_allow_html=True)
-st.title("HITU DATA SCIENCE")
+st.title("HITU-DATA<p></p>SCIENCE")
 st.subheader("🎓 نظام تسجيل الحضور الذكي")
 st.markdown("---")
 
@@ -130,5 +136,6 @@ if btn:
     except Exception as e:
 
         st.error(f"حدث خطأ أثناء الحذف: {e}")
+
 
 
