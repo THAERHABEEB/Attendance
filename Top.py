@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-  left:100px;
+  margin:50px;
   color: #00e0ff;
   font-size: 2.0rem;
   animation: glow 2s infinite alternate;
@@ -26,7 +26,7 @@ h1 {
 
 
 @keyframes glow {
-  from { text-shadow: 0 0 10px #00e0ff, 0 0 20px #00e0ff; }
+  from { text-shadow: 0 0 10px #00e0ff, 0 0 20px #00e0ff; }e
   to { text-shadow: 0 0 30px #00e0ff, 0 0 40px #00e0ff; }
 }
 .HITU{
@@ -132,6 +132,7 @@ if btn:
     except Exception as e:
 
         st.error(f"حدث خطأ أثناء الحذف: {e}")
+
 
 
 
