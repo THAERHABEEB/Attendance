@@ -18,8 +18,7 @@ body {
 }
 
 h1 {
-  text-align:center;
-  left:300px;
+  left:100px;
   color: #00e0ff;
   font-size: 2.0rem;
   animation: glow 2s infinite alternate;
@@ -133,6 +132,7 @@ if btn:
     except Exception as e:
 
         st.error(f"حدث خطأ أثناء الحذف: {e}")
+
 
 
 
