@@ -151,7 +151,6 @@ button:hover {
 
 </style>
 
-<h1>Data Science</h1>
 
 """, unsafe_allow_html=True)
 
@@ -289,6 +288,7 @@ if btn:
 
         st.error(f"حدث خطأ أثناء الحذف: {e}")
       
+
 
 
 
