@@ -1,4 +1,16 @@
-streamlit
 pandas
-openpyxl
+
+os
+
+streamlit
+
+datetime
+
+altair
+
+imagehash
+
+fpdf
+
+pillow
 
